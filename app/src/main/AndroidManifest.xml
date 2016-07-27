@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="shareit.gladeux.org.shareitapp">
+
+    <application
+        android:allowBackup="true"
+        android:description="@string/app_description"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name=".SplashScreen"
+            android:description="@string/splash_screen_description"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+
+
+
+        <activity
+            android:name=".CategoryView"
+            android:description="@string/category_view_description"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+
+
+
+        <activity
+            android:name=".DetailView"
+            android:description="@string/detail_view_description"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+
+
+
+        <activity
+            android:name=".TopicView"
+            android:description="@string/topic_view_description"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+
+
+
+        <activity
+            android:name=".NewCategoryView"
+            android:description="@string/new_category_view_description"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+
+
+
+        <activity
+            android:name=".NewDetailView"
+            android:description="@string/new_detail_view_description"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+
+
+
+        <activity
+            android:name=".EditCategoryView"
+            android:description="@string/edit_detail_view_description"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".EditDetailView"
+            android:label="@string/title_activity_edit_detail_view"></activity>
+
+    </application>
+
+</manifest>
